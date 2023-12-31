@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@nodegui/nodegui": "^0.63.0",
+    "qode": "^0.1.0"
+  },
+  "devDependencies": {
+    "@nodegui/packer": "^1.5.0"
+  },
+  "name": "uvrmultitrackstemjoiner",
+  "version": "1.0.0",
+  "description": "Join Multiple Audio Tracks in one file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alain Azpeitia",
+  "license": "ISC"
+}
