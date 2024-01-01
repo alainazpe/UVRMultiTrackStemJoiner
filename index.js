@@ -86,7 +86,7 @@ label3.setText(fullScript);
 label2.adjustSize()
 label3.adjustSize()
 
-fs.writeFile('Script.bat', fullScript, err => {
+fs.writeFile(process.env.USERPROFILE + '\\Desktop\\Script.bat', fullScript, err => {
   if (err) {
     console.error(err);
   }
@@ -141,20 +141,20 @@ const label = new QLabel();
 localizableES = {
   txt1:"Carpeta con ficheros de audio MultiPista de Ultimate Vocal Remover:",
   txt2:"Examinar...",
-  txt3:"¡Script creado! Ejecuta Script.bat"
+  txt3:"¡Script creado! Ejecuta Script.bat, guardado en el escritorio."
 }
 
 localizableEN = {
   txt1:"Folder with UltimateVocalRemover MultiTrack Audio Files:",
   txt2:"Browse...",
-  txt3:"Script created! Run Script.bat"
+  txt3:"Script created! Run Script.bat, saved in the desktop."
 }
 
 
 localizableEU = {
   txt1:"Ultimate Vocal Remover-ek sorturiko geruza ezberdingo audioen direktorioa:",
   txt2:"Aukeratu...",
-  txt3:"Script-a sortu da! Exekutatu Script.bat"
+  txt3:"Script-a sortu da! Exekutatu Script.bat-a, mahaigainean gordea."
 }
 
 localizable = localizableEN;
