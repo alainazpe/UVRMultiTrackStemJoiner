@@ -1,5 +1,5 @@
 # UVR MultiTrack Stem Joiner
-Join MultiTrack Stems created with Ultimate Vocal Remover. It creates a script that Joins the stems with ffmpeg.
+Join MultiTrack Stems created with Ultimate Vocal Remover into a single .mp4 audio file! It creates a script that Joins the stems with ffmpeg.
 
 Example: Run Ultimate Vocal Remover and save the output in Desktop\Output\ folder:
 ![image](https://github.com/alainazpe/UVRMultiTrackStemJoiner/assets/34461201/3777742e-dc12-472e-8580-5dbd67dda24b)
