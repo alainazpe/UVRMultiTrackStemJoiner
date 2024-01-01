@@ -7,10 +7,10 @@ Example: Run Ultimate Vocal Remover and save the output in Desktop\Output\ folde
 Files are generated:
 ![image](https://github.com/alainazpe/UVRMultiTrackStemJoiner/assets/34461201/2057ef08-a13e-4d7e-803a-7a74f6d70e25)
 
-Run UVR MultiTrack Stem Joiner and select Desktop\Output\ folder
+Run UVR MultiTrack Stem Joiner and select Desktop\Output\ folder:
 ![image](https://github.com/alainazpe/UVRMultiTrackStemJoiner/assets/34461201/23bf82fa-0b0d-4b76-8873-79b79ef79341)
 
-The script is in the desktop, copy it to a folder that has ffmpeg (for example, the UVR program folder)
+The script is in the desktop, copy it to a folder that has ffmpeg (for example, the UVR program folder) and run it.
 ![image](https://github.com/alainazpe/UVRMultiTrackStemJoiner/assets/34461201/2cd5513e-6da8-4f75-b2ad-06980f6117f4)
 
 Now you have both stems in a single .mp4 file, with two channels:
